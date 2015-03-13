@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\poker_eval_lib">
+      <UniqueIdentifier>{7d4a4eb5-b99d-4728-b332-a12b316da43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes">
+      <UniqueIdentifier>{6e9c5034-f089-4070-a281-d39bcae839f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{b576bf37-7c0b-45ec-bff1-c5630c8c83fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\poker_eval_lib\mtrand.cpp">
+      <Filter>src\poker_eval_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\poker_eval_lib\pokerlib.cpp">
+      <Filter>src\poker_eval_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\GameScene.cpp">
+      <Filter>src\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\MainScene.cpp">
+      <Filter>src\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\PixelCollision.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\poker_eval_lib\arrays.h">
+      <Filter>src\poker_eval_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\poker_eval_lib\mtrand.h">
+      <Filter>src\poker_eval_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\poker_eval_lib\poker.h">
+      <Filter>src\poker_eval_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\GameScene.h">
+      <Filter>src\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\MainScene.h">
+      <Filter>src\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\PixelCollision.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
